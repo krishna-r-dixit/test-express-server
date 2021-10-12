@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Express-boilerplate"
+  description: "test"
+  annotations:
+    github.com/project-slug: meghanakhuntia/test-express-server
+    backstage.io/techdocs-ref: url:https://github.com/meghanakhuntia/test-express-server.git
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "meghanakhuntia"
